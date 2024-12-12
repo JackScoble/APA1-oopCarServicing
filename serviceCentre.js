@@ -19,6 +19,11 @@ export default class ServiceCentre {
                 cost: 50, 
                 duration: '30 minutes',
                 description: 'Computer diagnostic check'
+            }],
+            ['premium', {
+                cost: 300,
+                duration: '3 hours',
+                description: 'Complete premium vehicle service'
             }]
         ]);
     }
